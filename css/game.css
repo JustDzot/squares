@@ -1,21 +1,49 @@
 .game-field {
-  background-color: orange;
+  background: linear-gradient(gold, white);
   min-height: 10vh;
   margin: 1px 1px 1px 1px;
   line-height: 10vh;
 }
 
 .target {
-  background-color: green;
+  background: linear-gradient(darkgreen, white);
   color: white;
   font-size: 24pt;
   text-align: center;
 }
 
 .miss {
-  background-color: red;
+  background: linear-gradient(red,white);
 }
 
 .game-field {
   user-select: none;
+}
+
+.row {
+  background-color: black;
+}
+
+h1 {
+  font-style: normal;
+  font-family: 'Tahoma';
+  font-weight: bold;
+  font-size: 50px;
+  color: aliceblue;
+  text-shadow: 1px 0 1px #000, 
+  0 1px 1px #000, 
+  -1px 0 1px #000, 
+  0 -1px 1px #000;
+  }
+
+h2 {
+  font-style: normal;
+  font-family: 'Tahoma';
+  font-weight: lighter;
+  font-size: 40px;
+  color: aliceblue;
+  text-shadow: 1px 0 1px #000, 
+0 1px 1px #000, 
+-1px 0 1px #000, 
+0 -1px 1px #000;
 }
